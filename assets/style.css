@@ -10,17 +10,19 @@
 }
 
 .hero-img {
-  width: 35%;
+  width: 40%;
   height: 100vh;
   background-image: url(./images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hero-content {
-  position: relative;
-  top: 20%;
   padding: 20px 10px;
   background: rgba(0, 0, 0, 0.3);
   color: white;
@@ -40,4 +42,18 @@
   font-size: 4rem;
   font-family: "Shikamaru", sans-serif;
   text-transform: uppercase;
+}
+
+.credits {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.credits a {
+  color: white;
+}
+
+.credits a:hover {
+  color: gray;
 }
