@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Shikamaru";
+  src: url("./fonts/Shikamaru.ttf");
+}
+
+.hero-img {
+  width: 35%;
+  height: 100vh;
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-content {
+  position: relative;
+  top: 20%;
+  padding: 20px 10px;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content img {
+  height: 100px;
+  filter: invert();
+  margin-right: 10px;
+}
+
+.hero-content h1 {
+  margin: 0;
+  font-size: 4rem;
+  font-family: "Shikamaru", sans-serif;
+  text-transform: uppercase;
+}
