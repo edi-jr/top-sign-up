@@ -123,6 +123,17 @@ body {
   border: 1px solid #ff4499;
 }
 
+.form > label > input.error,
+.form > label > input.error:focus {
+  border: 1px solid #f83253;
+}
+
+.form > span.error {
+  color: #f83253;
+  font-size: .8rem;
+  margin-top: -0.7rem;
+}
+
 .form-button-container {
   padding: 40px;
 }
